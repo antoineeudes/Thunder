@@ -1,27 +1,24 @@
-#ifndef SERIALPORT_H
-#define SERIALPORT_H
+#pragma once
 
-#define ARDUINO_WAIT_TIME 2000
-#define MAX_DATA_LENGTH 255
+#include <stdio.h>   /* Standard input/output definitions */
+#include <string>  /* String function definitions */
+#include <unistd.h>  /* UNIX standard function definitions */
+#include <fcntl.h>   /* File control definitions */
+#include <errno.h>   /* Error number definitions */
+#include <termios.h> /* POSIX terminal control definitions */
 
-#include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
+using namespace std;
 
 class SerialPort
 {
-private:
-    HANDLE handler;
-    bool connected;
-    COMSTAT status;
-    DWORD errors;
-public:
-    SerialPort(char *portName);
-    ~SerialPort();
+   private:
+       char* path;
+       int fd;
 
-    int readSerialPort(char *buffer, unsigned int buf_size);
-    bool writeSerialPort(char *buffer, unsigned int buf_size);
-    bool isConnected();
+   public:
+       SerialPort(char* givenPath);
+       ~SerialPort();
+
+       void serialPrint(char* c);
+
 };
-
-#endif // SERIALPORT_H

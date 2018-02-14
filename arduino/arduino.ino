@@ -20,6 +20,7 @@ void loop() {
         //Pourra être utile pour distinguer quel projecteur allumer
         //(Switch sur incomingByte)
         incomingByte = Serial.read();   //Purge également les données en attente
+        Serial.print(incomingByte);
 
         flash();
     }

@@ -1,0 +1,1 @@
+/usr/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Thunder.dir/main.cpp.o CMakeFiles/Thunder.dir/SerialPort.cpp.o CMakeFiles/Thunder.dir/animation.cpp.o  -o Thunder 
