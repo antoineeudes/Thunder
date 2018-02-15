@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1518623839 source:/Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/animation.cpp
+	"animation.h"
+
+1518623843 /Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/animation.h
+	"SerialPort.h"
+
+1518623642 /Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/SerialPort.h
+	<stdio.h>
+	<string>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1518705299 source:/Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/main.cpp
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	"SerialPort.h"
+	"animation.h"
+	"Tools.h"
+	<thread>
+	<iostream>
+
+1518705285 /Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/Tools.h
+
+1518623456 source:/Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/SerialPort.cpp
+	"SerialPort.h"
+	<stdio.h>
+	<string>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1518705290 source:/Users/alexandreperez/OneDrive/Programmation/Thunder_2/Source/Tools.cpp
+	"Tools.h"
+
