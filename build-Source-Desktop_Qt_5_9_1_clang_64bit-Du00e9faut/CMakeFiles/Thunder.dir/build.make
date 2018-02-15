@@ -129,11 +129,61 @@ CMakeFiles/Thunder.dir/animation.cpp.o.provides: CMakeFiles/Thunder.dir/animatio
 CMakeFiles/Thunder.dir/animation.cpp.o.provides.build: CMakeFiles/Thunder.dir/animation.cpp.o
 
 
+CMakeFiles/Thunder.dir/analyse.cpp.o: CMakeFiles/Thunder.dir/flags.make
+CMakeFiles/Thunder.dir/analyse.cpp.o: /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandreperez/OneDrive/Programmation/Thunder/build-Source-Desktop_Qt_5_9_1_clang_64bit-Du00e9faut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Thunder.dir/analyse.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thunder.dir/analyse.cpp.o -c /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.cpp
+
+CMakeFiles/Thunder.dir/analyse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thunder.dir/analyse.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.cpp > CMakeFiles/Thunder.dir/analyse.cpp.i
+
+CMakeFiles/Thunder.dir/analyse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thunder.dir/analyse.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.cpp -o CMakeFiles/Thunder.dir/analyse.cpp.s
+
+CMakeFiles/Thunder.dir/analyse.cpp.o.requires:
+
+.PHONY : CMakeFiles/Thunder.dir/analyse.cpp.o.requires
+
+CMakeFiles/Thunder.dir/analyse.cpp.o.provides: CMakeFiles/Thunder.dir/analyse.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/analyse.cpp.o.provides.build
+.PHONY : CMakeFiles/Thunder.dir/analyse.cpp.o.provides
+
+CMakeFiles/Thunder.dir/analyse.cpp.o.provides.build: CMakeFiles/Thunder.dir/analyse.cpp.o
+
+
+CMakeFiles/Thunder.dir/Tools.cpp.o: CMakeFiles/Thunder.dir/flags.make
+CMakeFiles/Thunder.dir/Tools.cpp.o: /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandreperez/OneDrive/Programmation/Thunder/build-Source-Desktop_Qt_5_9_1_clang_64bit-Du00e9faut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Thunder.dir/Tools.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thunder.dir/Tools.cpp.o -c /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.cpp
+
+CMakeFiles/Thunder.dir/Tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thunder.dir/Tools.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.cpp > CMakeFiles/Thunder.dir/Tools.cpp.i
+
+CMakeFiles/Thunder.dir/Tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thunder.dir/Tools.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.cpp -o CMakeFiles/Thunder.dir/Tools.cpp.s
+
+CMakeFiles/Thunder.dir/Tools.cpp.o.requires:
+
+.PHONY : CMakeFiles/Thunder.dir/Tools.cpp.o.requires
+
+CMakeFiles/Thunder.dir/Tools.cpp.o.provides: CMakeFiles/Thunder.dir/Tools.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/Tools.cpp.o.provides.build
+.PHONY : CMakeFiles/Thunder.dir/Tools.cpp.o.provides
+
+CMakeFiles/Thunder.dir/Tools.cpp.o.provides.build: CMakeFiles/Thunder.dir/Tools.cpp.o
+
+
 # Object files for target Thunder
 Thunder_OBJECTS = \
 "CMakeFiles/Thunder.dir/main.cpp.o" \
 "CMakeFiles/Thunder.dir/SerialPort.cpp.o" \
-"CMakeFiles/Thunder.dir/animation.cpp.o"
+"CMakeFiles/Thunder.dir/animation.cpp.o" \
+"CMakeFiles/Thunder.dir/analyse.cpp.o" \
+"CMakeFiles/Thunder.dir/Tools.cpp.o"
 
 # External object files for target Thunder
 Thunder_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ Thunder_EXTERNAL_OBJECTS =
 Thunder: CMakeFiles/Thunder.dir/main.cpp.o
 Thunder: CMakeFiles/Thunder.dir/SerialPort.cpp.o
 Thunder: CMakeFiles/Thunder.dir/animation.cpp.o
+Thunder: CMakeFiles/Thunder.dir/analyse.cpp.o
+Thunder: CMakeFiles/Thunder.dir/Tools.cpp.o
 Thunder: CMakeFiles/Thunder.dir/build.make
 Thunder: CMakeFiles/Thunder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alexandreperez/OneDrive/Programmation/Thunder/build-Source-Desktop_Qt_5_9_1_clang_64bit-Du00e9faut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Thunder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alexandreperez/OneDrive/Programmation/Thunder/build-Source-Desktop_Qt_5_9_1_clang_64bit-Du00e9faut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Thunder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thunder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/Thunder.dir/build: Thunder
 CMakeFiles/Thunder.dir/requires: CMakeFiles/Thunder.dir/main.cpp.o.requires
 CMakeFiles/Thunder.dir/requires: CMakeFiles/Thunder.dir/SerialPort.cpp.o.requires
 CMakeFiles/Thunder.dir/requires: CMakeFiles/Thunder.dir/animation.cpp.o.requires
+CMakeFiles/Thunder.dir/requires: CMakeFiles/Thunder.dir/analyse.cpp.o.requires
+CMakeFiles/Thunder.dir/requires: CMakeFiles/Thunder.dir/Tools.cpp.o.requires
 
 .PHONY : CMakeFiles/Thunder.dir/requires
 

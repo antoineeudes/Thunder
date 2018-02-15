@@ -1,2 +1,2 @@
 #include "analyse.h"
-#include <SoundBufferRecorder.hpp>
+#include <libsfml-audio>
