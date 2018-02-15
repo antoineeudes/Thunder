@@ -1,0 +1,1 @@
+int bpmToUS(float bpm);

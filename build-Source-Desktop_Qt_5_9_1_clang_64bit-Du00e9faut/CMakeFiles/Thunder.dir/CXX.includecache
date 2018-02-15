@@ -61,4 +61,8 @@ SerialPort.h
 /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/SerialPort.h
 animation.h
 /Users/alexandreperez/OneDrive/Programmation/Thunder/Source/animation.h
+thread
+-
+iostream
+-
 
