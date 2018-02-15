@@ -150,6 +150,60 @@ SerialPort.cpp.s:
 	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/SerialPort.cpp.s
 .PHONY : SerialPort.cpp.s
 
+Tools.o: Tools.cpp.o
+
+.PHONY : Tools.o
+
+# target to build an object file
+Tools.cpp.o:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/Tools.cpp.o
+.PHONY : Tools.cpp.o
+
+Tools.i: Tools.cpp.i
+
+.PHONY : Tools.i
+
+# target to preprocess a source file
+Tools.cpp.i:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/Tools.cpp.i
+.PHONY : Tools.cpp.i
+
+Tools.s: Tools.cpp.s
+
+.PHONY : Tools.s
+
+# target to generate assembly for a file
+Tools.cpp.s:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/Tools.cpp.s
+.PHONY : Tools.cpp.s
+
+analyse.o: analyse.cpp.o
+
+.PHONY : analyse.o
+
+# target to build an object file
+analyse.cpp.o:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/analyse.cpp.o
+.PHONY : analyse.cpp.o
+
+analyse.i: analyse.cpp.i
+
+.PHONY : analyse.i
+
+# target to preprocess a source file
+analyse.cpp.i:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/analyse.cpp.i
+.PHONY : analyse.cpp.i
+
+analyse.s: analyse.cpp.s
+
+.PHONY : analyse.s
+
+# target to generate assembly for a file
+analyse.cpp.s:
+	$(MAKE) -f CMakeFiles/Thunder.dir/build.make CMakeFiles/Thunder.dir/analyse.cpp.s
+.PHONY : analyse.cpp.s
+
 animation.o: animation.cpp.o
 
 .PHONY : animation.o
@@ -216,6 +270,12 @@ help:
 	@echo "... SerialPort.o"
 	@echo "... SerialPort.i"
 	@echo "... SerialPort.s"
+	@echo "... Tools.o"
+	@echo "... Tools.i"
+	@echo "... Tools.s"
+	@echo "... analyse.o"
+	@echo "... analyse.i"
+	@echo "... analyse.s"
 	@echo "... animation.o"
 	@echo "... animation.i"
 	@echo "... animation.s"

@@ -88,6 +88,18 @@
 		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/SerialPort.h">
 			<Option target="Thunder"/>
 		</Unit>
+		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.cpp">
+			<Option target="Thunder"/>
+		</Unit>
+		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/Tools.h">
+			<Option target="Thunder"/>
+		</Unit>
+		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.cpp">
+			<Option target="Thunder"/>
+		</Unit>
+		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/analyse.h">
+			<Option target="Thunder"/>
+		</Unit>
 		<Unit filename="/Users/alexandreperez/OneDrive/Programmation/Thunder/Source/animation.cpp">
 			<Option target="Thunder"/>
 		</Unit>

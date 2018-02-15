@@ -720,21 +720,45 @@
 //     close(fd);
 // }
 
-int bpmToUS(float bpm)
-{
-    return int(1000000*60/bpm);
-}
 
 #include "SerialPort.h"
 #include "animation.h"
+#include "Tools.h"
+
+#include <thread>
+#include <iostream>
+
+bool triggerFlash = false;
+bool over = false;
+
+void severalFlash()
+{
+    SerialPort arduino("/dev/cu.usbmodem1411");
+//    for(int i=0; i<10; i++)
+//    {
+//        flash(arduino);
+//        usleep(bpmToUS(80));
+//    }
+    while(!over)
+    {
+        if(triggerFlash)
+        {
+            flash(arduino);
+            triggerFlash = false;
+        }
+    }
+}
 
 int main()
 {
-    SerialPort arduino("/dev/cu.usbmodem1411");
-    for(int i=0; i<50; i++)
+    std::thread t1(severalFlash);
+    for(int j = 0; j<100; j++)
     {
-        flash(arduino);
-        usleep(bpmToUS(500));
+        cout << j << endl;
+        triggerFlash = true;
+        usleep(bpmToUS(77));
     }
+    over = true;
+    t1.join();
     return 0;
 }

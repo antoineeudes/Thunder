@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Thunder.dir/main.cpp.o"
   "CMakeFiles/Thunder.dir/SerialPort.cpp.o"
   "CMakeFiles/Thunder.dir/animation.cpp.o"
+  "CMakeFiles/Thunder.dir/analyse.cpp.o"
+  "CMakeFiles/Thunder.dir/Tools.cpp.o"
   "Thunder.pdb"
   "Thunder"
 )
